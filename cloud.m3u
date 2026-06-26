@@ -424,7 +424,7 @@ https://mnctv-linier.rctiplus.id/mnctv-sdi.m3u8?hdnts=exp=1781012308~hmac=729dae
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
-#EXTINF:-1 tvg-logo="tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2DVrmUDImRcnPirAfAqUQtuU-pPk-wVcogbBEg9wScKkUfyLXclRKIE2hmgot7Bi4liftFPfoiXxXz9vWXYSevjCQu_mvkyUE24nORP1AZBNlSEbffRZQDx8w7Dctm_b5RF-NR3O31NNwg4ghyeB16bm8nvw90-Omq4yUN3xScA5KhJQhbODGMU29zIc/s750/GTVSports.png"" group-title="INDONESIA",GTVˢᵖᵒʳᵗˢ
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2DVrmUDImRcnPirAfAqUQtuU-pPk-wVcogbBEg9wScKkUfyLXclRKIE2hmgot7Bi4liftFPfoiXxXz9vWXYSevjCQu_mvkyUE24nORP1AZBNlSEbffRZQDx8w7Dctm_b5RF-NR3O31NNwg4ghyeB16bm8nvw90-Omq4yUN3xScA5KhJQhbODGMU29zIc/s750/GTVSports.png"" group-title="INDONESIA",GTVˢᵖᵒʳᵗˢ
 http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1505835.ts
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXwidwXi8K3rIvOAzFa6cRAwnjmuYcb09LNq-gJgsyEoibjlQyh_8CJ-o-nYWEVAxb8dd4DThEBGTEh1RBZmrfcxfBbjBSxcn2w63qrFXvPmF-UKBAiHxxrMlhAKMDqTgy-VhitYUfA7r-T7eD4ewnO7u0fEcF7kWtUiW5OD5BmfSQhpbI8fzyrEhBcJg/s700/Inews.png" group-title="INDONESIA",iNews
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -605,8 +605,19 @@ https://indihuy.streamized.net/atm/DASH/mtatv/manifest.mpd
 https://mic.siar.us/mic/live/mic.m3u8
 #EXTINF:-1 tvg-id="MyKidz.id@SD" tvg-name="My Kidz" tvg-logo="https://i.imgur.com/qzZFU6d.png" group-title="INDONESIA",My Kidz (720p)
 https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd
-#EXTINF:-1 tvg-id="SindoNewsTV.id@SD" tvg-name="Sindo News TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/SindoNewsTV_2023.png/960px-SindoNewsTV_2023.png" group-title="INDONESIA",Sindo News TV
-https://indihuy.streamized.net/atm/DASH/mncnews/manifest.mpd
+#EXTINF:-1 tvg-id="SindoNewsTV.id" tvg-name="Sindo News TV" tvg-logo="https://www.visionplus.id/images/repository/263/514263-LOGO-m.png" group-title="News", Sindonews (V+)
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://boti.my.id/saya.suka?id=5&type=fitnah
+https://d43tg978oium5.cloudfront.net/out/v1/8c2df39f9b2842fbb997b89378841ad9/index.mpd
+#EXTINF:-1 tvg-id="SindoNewsTV.id" tvg-name="Sindo News TV" tvg-logo="https://www.visionplus.id/images/repository/263/514263-LOGO-m.png" group-title="News", Sindonews (Maxstream)
+#EXTVLCOPT:http-referrer=https://www.indihometv.com 
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0
+https://cdnbal1.indihometv.com/atm/DASH/mncnews/manifest.mpd
 #EXTINF:-1 tvg-id="ZeeBioskop.id@SD" tvg-name="Zee Bioskop" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Zee_Bioskop_(2025).svg/960px-Zee_Bioskop_(2025).svg.png" group-title="INDONESIA",Zee Bioskop
 https://indihuy.streamized.net/atm/DASH/zbioskop/manifest.mpd
 #EXTINF:-1 tvg-id="BRTV.id@SD" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1HBSHHAY-rzzytRlEB6Jc5ooeOIfQWrctDX3GWrVcnoWVwHasVRUIAQfd1d5s8PrFneS1-Rqw8atGaNxDra6ySNWH417C1yaM5TepiNWkvbRH5iqqa_z4pJmmGTZTi73ZMg41jdxoTTRIDzqbevrUg9l3-qCM1OPfXToUkTV6fV2WX7dGXSl-cVdfUV0/s700/BRTV.png" group-title="INDONESIA",BRTV
@@ -755,8 +766,6 @@ https://cors-everywhere-wc8b4.ondigitalocean.app/https://otte.live.fly.ww.aiv-cd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae
 https://cors-everywhere-wc8b4.ondigitalocean.app/https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
-#EXTINF:-1 group-title="BERITA" tvg-id="MNCNews.id" tvg-url="https://bit.ly/IndonesiaEpg" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlAtPGRHW6gEgAZMn916nIPyS0yqblsFZqg&s",SindoNews ID
-https://cdnbal1.indihometv.com/atm/DASH/mncnews/mncnews-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-name="CNN INDONESIA" tvg-logo="https://download.logo.wine/logo/CNN/CNN-Logo.wine.png" group-title="BERITA",CNN INDONESIA ALT 2
 #EXTVLCOPT:http-origin=https://www.cnnindonesia.com/
 #EXTVLCOPT:http-referrer=https://www.cnnindonesia.com/
@@ -774,45 +783,45 @@ https://ac-003.live.p7s1video.net/63f8995e/t_003/dazn-fast-hd/cenc-default.mpd
 https://d1ebgtxjo246w3.cloudfront.net/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd
 #EXTINF:-1 tvg-id="WIN_Sports" tvg-name="WIN Sports" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="WORLD CUP 2026",WIN Sports
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",Unite 2
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=zee5.com&sz=128" group-title="WORLD CUP 2026",Unite 2
 http://212.102.34.8:9080/AndFlixHD/video.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",Somoy TV 2
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=somoynews.tv&sz=128" group-title="WORLD CUP 2026",Somoy TV 2
 http://ubuntu.moonplex.net:8080/Somoy_TV/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",Caze TV 1080p
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=cazetv.com.br&sz=128" group-title="WORLD CUP 2026",Caze TV 1080p
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",Caze TV 720p
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=cazetv.com.br&sz=128" group-title="WORLD CUP 2026",Caze TV 720p
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",Go 3 Sport
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=go3.lt&sz=128" group-title="WORLD CUP 2026",Go 3 Sport
 http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18000/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",Go 3 Sport 2
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=go3.lt&sz=128" group-title="WORLD CUP 2026",Go 3 Sport 2
 http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/18001/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",TSN 1
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=tsn.ca&sz=128" group-title="WORLD CUP 2026",TSN 1
 http://stalker.hakunamata.workers.dev/play/258/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",TSN 2
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=tsn.ca&sz=128" group-title="WORLD CUP 2026",TSN 2
 http://stalker.hakunamata.workers.dev/play/259/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",TSN 3
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=tsn.ca&sz=128" group-title="WORLD CUP 2026",TSN 3
 http://stalker.hakunamata.workers.dev/play/260/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",TSN 4
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=tsn.ca&sz=128" group-title="WORLD CUP 2026",TSN 4
 http://stalker.hakunamata.workers.dev/play/261/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",TSN 5
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=tsn.ca&sz=128" group-title="WORLD CUP 2026",TSN 5
 http://stalker.hakunamata.workers.dev/play/262/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",TVP Sports
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9d/TVP_Sport_HD_Logo.png" group-title="WORLD CUP 2026",TVP Sports
 https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",T Sports HD
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=tsports.com&sz=128" group-title="WORLD CUP 2026",T Sports HD
 https://trs1.aynaott.com/tsports/index.m3u8
 #EXTINF:-1 tvg-id="DAZN 1" tvg-name="DAZN 1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="WORLD CUP 2026",DAZN 1 ALT 1
 http://znty.dyndns.org:5010/hls/eleven1.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",DAZN 1 ALT 2
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=dazn.com&sz=128" group-title="WORLD CUP 2026",DAZN 1 ALT 2
 https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 #EXTINF:-1 tvg-id="ESPN S1" tvg-name="ESPN S1" tvg-logo="https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png" group-title="WORLD CUP 2026",ESPN S1
 https://1nyaler.streamhostingcdn.top/stream/97/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",Tudn Sports
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=tudn.com&sz=128" group-title="WORLD CUP 2026",Tudn Sports
 https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
-#EXTINF:-1 group-title="WORLD CUP 2026",Fox 1080
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/640px-FOX_Sports_logo.svg.png" group-title="WORLD CUP 2026",Fox 1080
 https://d1jzu95oc8fgt3.cloudfront.net/FOX_Sports1080p.m3u8
-#EXTINF:-1 tvg-name="Fox Sports 3 HD" group-title="SPORTS",Fox Sports 3 HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/640px-FOX_Sports_logo.svg.png" tvg-name="Fox Sports 3 HD" group-title="SPORTS",Fox Sports 3 HD
 http://190.7.19.197:232/play/a04x/index.m3u8
-#EXTINF:-1 tvg-name="SINDOnews" tvg-id="sindonews.id" group-title="BERITA",SINDOnews Live
+#EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=sindonews.com&sz=128" tvg-name="SINDOnews" tvg-id="sindonews.id" group-title="BERITA",SINDOnews Live
 https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1782409861/ei/JRY9arSzJfuq9fwPsc7cqAw/ip/125.166.19.176/id/lrMOOne8oFY.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr1---sn-2uuxa3vh-02br.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/id/bui/ARmQxEWPH-QKnRH3eWVR7-VkI3ajwhzBLxH7gFkQ7Vso-AaOmCkDi3aA3BRiUSyDLrOlLEivpnGHl3C9/spc/SQ-umtRZl18VffoLhBhZJyVKpJW1EMpZkAwBuJkatQNy-Z8kNg/vprv/1/reg/0/playlist_type/DVR/initcwndbps/720000/met/1782388261,/mh/W1/mm/44/mn/sn-2uuxa3vh-02br/ms/lva/mv/m/mvi/1/pl/24/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115,51565682,51987687,52017147/mt/1782387889/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AHEqNM4wRgIhAOWhlYjgMdQMVnDjLhy40fLPOQrmi4Vu2unwOnNHiAgdAiEAjpTsG7MlgUVyfdLEmcduHwX868Ems6z5UEDAQeZbBu0%3D/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgHWmyZwGoLxis36VlpJrSDEyDHi_goh0nTW_pdsHGNBYCIQCuYVPpUuNoWzivsp62DPb6-N9pjfLEeTxs-WBnJ0lYjg%3D%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-name="Galaxy Premium" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_12.png" group-title="MOVIE",Galaxy Premium
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
