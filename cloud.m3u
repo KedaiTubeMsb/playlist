@@ -1,31 +1,28 @@
 #EXTM3U
-#EXTINF:-1,PTV SPORTS FHD
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/498.ts
-#EXTINF:-1,FIFA WORLDCUP  eng
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/1306.ts
-#EXTINF:-1,FIFA WORLDCUP bbc
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/4958.ts
-#EXTINF:-1,FIFA WORLDCUP itv
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/501.ts
-#EXTINF:-1,FIFA WORLDCUP hindi
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/5008.ts
-#EXTINF:-1,FIFA WORLDCUP unite8
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/1064.ts
-#EXTINF:-1,FIFA WORLDCUP german
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/1582.ts
-#EXTINF:-1,FIFA WORLDCUP german
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/2572.ts
-#EXTINF:-1,FIFA WORLDCUP spanish
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/6659.ts
-#EXTINF:-1,FIFA WORLDCUP portu
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/1423.ts
-#EXTINF:-1,FIFA WORLDCUP fox
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/1140.ts
-#EXTINF:-1,TSN 4 HD
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/6654.ts
-#EXTINF:-1,TSN 3 HD
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/6653.ts
-#EXTINF:-1,TSN 2 HD
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/6652.ts
-#EXTINF:-1,TSN 1 HD
-http://main.epgmaker.com/live/y49sz6KMQs/6115263489/6650.ts
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (Somoy Tv)
+https://monirul.bro.bd/bdix/live/somoy_tv.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (T-Sports)
+https://monirul.bro.bd/bdix/live/t_sports.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (Win Sports)
+https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (Bein Sports)
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (DAZN)
+https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (TVP Sports)
+https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (D Sports)
+https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (Case TV)
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/1280px-2026_FIFA_World_Cup_emblem.svg.png",FIFA World Cup 2026 (Tudn Sports)
+https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8
