@@ -1,0 +1,62 @@
+#EXTM3U
+
+# ==========================================
+# TVRI Sport - M3U Playlist
+# ==========================================
+# Sumber: iptv-org, GitHub, TVRI Klik
+# Tanggal: 28 Juni 2026
+#
+# Catatan:
+# - Maxstream adalah platform streaming Telkomsel yang juga menayangkan TVRI Sport
+# - Stream official TVRI menggunakan server ott-balancer.tvri.go.id
+# - Jika ada link yang tidak berfungsi, coba link alternatif lain
+
+# --- TVRI Sport HD (720p) - OFFICIAL TVRI ---
+#EXTINF:-1 tvg-id="TVRISport.id" tvg-logo="https://i.postimg.cc/rFKcGqwx/TVRI-Sport-2022.png" group-title="Sports",TVRI Sport HD (720p)
+https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+
+# --- TVRI Sport - OLD OTT ---
+#EXTINF:-1 tvg-id="TVRISport.id" tvg-logo="https://i.postimg.cc/rFKcGqwx/TVRI-Sport-2022.png" group-title="Sports",TVRI Sport (OTT)
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRI4)/index.m3u8
+
+# --- TVRI Sport - CDN NUCdn ---
+#EXTINF:-1 tvg-id="TVRISport.id" tvg-logo="https://i.postimg.cc/rFKcGqwx/TVRI-Sport-2022.png" group-title="Sports",TVRI Sport (CDN)
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRI4)/index.m3u8
+
+# --- TVRI Sport - DensTV ---
+#EXTINF:-1 tvg-id="TVRISport.id" tvg-logo="https://i.postimg.cc/rFKcGqwx/TVRI-Sport-2022.png" group-title="Sports",TVRI Sport (DensTV)
+https://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8
+
+# --- TVRI Sport - IP Direct ---
+#EXTINF:-1 tvg-id="TVRISport.id" tvg-logo="https://i.postimg.cc/rFKcGqwx/TVRI-Sport-2022.png" group-title="Sports",TVRI Sport (Direct IP)
+http://118.97.50.107/Content/HLS/Live/Channel(TVRI4)/index.m3u8
+
+# --- TVRI Nasional HD (720p) ---
+#EXTINF:-1 tvg-id="TVRINasional.id" tvg-logo="https://i.imgur.com/tvri.png" group-title="TVRI",TVRI Nasional HD (720p)
+https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+
+# --- TVRI Nasional - OLD OTT ---
+#EXTINF:-1 tvg-id="TVRINasional.id" tvg-logo="https://i.imgur.com/tvri.png" group-title="TVRI",TVRI Nasional (OTT)
+http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINASIONAL)/index.m3u8
+
+# --- TVRI World ---
+#EXTINF:-1 tvg-id="TVRIWorld.id" tvg-logo="https://i.imgur.com/tvri.png" group-title="TVRI",TVRI World
+http://wpc.d1627.nucdn.net/80D1627/o-tvri/Content/HLS/Live/Channel(TVRIWorld)/index.m3u8
+
+# ==========================================
+# ALTERNATIF: Playlist Sports Indonesia Lengkap (IPTV-Org)
+# ==========================================
+#EXTINF:-1 group-title="Sports",Sports Indonesia (IPTV-Org)
+https://iptv-org.github.io/iptv/categories/sports.m3u
+
+# ==========================================
+# CARA MENGGUNAKAN
+# ==========================================
+# 1. Buka VLC Media Player
+# 2. Klik Media > Open Network Stream (Ctrl+N)
+# 3. Paste salah satu URL .m3u8 di atas
+# 4. Atau buka file .m3u ini langsung
+#
+# Untuk menonton via Maxstream (Telkomsel):
+# - Download app MAXstream di Play Store
+# - TVRI Sport tersedia di kategori Sports
