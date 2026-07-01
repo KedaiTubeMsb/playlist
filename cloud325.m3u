@@ -5,7 +5,7 @@
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=618880fd141330378cf6aff5d48a252c:835e5fc97bfec870d8ac7e3d145e14ad
-https://id.wowok.workers.dev?url=aHR0cHM6Ly90ZW5jZW50LWNzcy5ieXRlcGxheWNkbi5jb20vYzM3MGJjM2ZmYWY3ZDg1OTQ0YjAxMTUzNDU0N2FjYjMvNkE0NDlBRDYvQ29udGVudC9EQVNIX0VOQzIvTGl2ZS9jaGFubmVsKHRzZWx3YzIpL21hc3Rlci5tcGQ=
+https://tencent-css.byteplaycdn.com/c370bc3ffaf7d85944b011534547acb3/6A449AD6/Content/DASH_ENC2/Live/channel(tselwc2)/master.mpd
 #EXTINF:-1 tvg-logo="https://www.google.com/s2/favicons?domain=zee5.com&sz=128" group-title="WORLD CUP 2026",Unite 2
 http://212.102.34.8:9080/AndFlixHD/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LKLjnrp.png" group-title="WORLD CUP 2026",RTBF TIPIK 1 (Belgium)
