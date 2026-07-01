@@ -17,7 +17,7 @@ https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d
-https://us.wowok.workers.dev?url=aHR0cHM6Ly9vdHRlLmNhY2hlLmFpdi1jZG4ubmV0L2lhZC1uaXRyby9saXZlL2NsaWVudHMvZW5jL25wd2l6cmFxZHIvb3V0L3YxLzMxZDMwYzkxZmM2NTQ1ODc4OWI4NDIwOWQzZmEyMmU0L2NlbmMubXBk
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/ihpzducmif/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png" group-title="WORLD CUP 2026" source-format="dash" audio-track="2" codec="exo1",FOX HD AVC (ANDROID / NOBARWOK)
 #KODIPROP:mimetype=application/dash+xml
 #KODIPROP:inputstream=inputstream.adaptive
