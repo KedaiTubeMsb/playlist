@@ -6,3 +6,6 @@ https://cdn1.panensport.org/channel/500298506/index.m3u8
 
 #EXTINF:-1 tvg-name="TVRI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png" group-title="INDONESIA",TVRI
 http://157.15.187.3:25092/hls/63/63.m3u8
+
+#EXTINF:-1 tvg-name="TVRI" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/960px-TVRILogo2019.svg.png" group-title="INDONESIA",TVRI 2
+http://157.15.187.3:25092/hls/49/49.m3u8
