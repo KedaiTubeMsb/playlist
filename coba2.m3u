@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://i.imgur.com/YD8fbTH.png" group-title="SPORTS",SPOTV 2
+#EXTVLCOPT:http-referrer=https://www.panentv.com/
+#EXTVLCOPT:http-origin=https://www.panentv.com
+https://cdn1.panensport.org/channel/500165105/index.m3u8
